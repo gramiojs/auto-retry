@@ -1,0 +1,32 @@
+{
+    "name": "@gramio/auto-retry",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "devDependencies": {
+        "@types/bun": "^1.0.12",
+        "typescript": "^5.4.3",
+        "gramio": "^0.0.25"
+    },
+    "peerDependencies": {
+        "gramio": "^0.0.25"
+    },
+    "description": "Auto-retry plugin for GramIO",
+    "files": [
+        "dist"
+    ],
+    "homepage": "https://github.com/gramiojs/auto-retry",
+    "keywords": [
+        "gramio",
+        "gramio-plugin",
+        "auto-retry",
+        "api",
+        "telegram",
+        "telegram-bot",
+        "telegram-bot-api"
+    ],
+    "readme": "https://gramio.netlify.app/",
+    "scripts": {
+        "prepublishOnly": "tsc && bunx tsc-alias"
+    },
+    "type": "commonjs"
+}
