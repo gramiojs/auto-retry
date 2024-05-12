@@ -26,7 +26,8 @@
     ],
     "readme": "https://gramio.netlify.app/",
     "scripts": {
-        "prepublishOnly": "tsc && bunx tsc-alias"
+        "prepublishOnly": "tsc && bunx tsc-alias",
+        "jsr": "bun scripts/release-jsr.ts"
     },
     "type": "commonjs"
 }
