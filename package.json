@@ -1,6 +1,6 @@
 {
     "name": "@gramio/auto-retry",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "dist/index.js",
     "devDependencies": {
         "@types/bun": "^1.0.12",
